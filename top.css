@@ -1,0 +1,52 @@
+/** CSS：Area */
+body {
+  background-color: #27bfe5; /*#27bfe5*/
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, black), color-stop(.5, transparent), to(transparent));
+  -webkit-background-size: 500px;
+  color: #ffffff
+}
+/*黒枠*/
+.jumbotron{
+  background-color:white; 
+  color:black;
+  font-size: 25px;
+}
+/*地図*/
+.maps {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*白枠*/
+.box26 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px black;
+  border-radius: 8px;
+}
+.box26 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+.box26 p {
+  margin: 0; 
+  padding: 0;
+}
